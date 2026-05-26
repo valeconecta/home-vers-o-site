@@ -77,13 +77,13 @@ export default function Home() {
                     setIsModalOpen(true);
                   }
                 }}
-                className="btn-primary !bg-white !text-[#002b62] hover:!bg-slate-100 text-center w-full sm:w-auto"
+                className="btn-primary !bg-white !text-[#002b62] hover:!bg-slate-100 text-center w-full sm:grow sm:flex-1"
               >
                 {t('cta_estimate')}
               </a>
               <a 
                 href="https://intensiva.com.br/projetos/waterland/services/" 
-                className="btn-secondary !border-white !text-white hover:bg-white hover:text-brand-dark w-full text-center block"
+                className="btn-secondary !border-white !text-white hover:bg-white hover:text-brand-dark w-full sm:w-auto text-center block sm:px-8"
               >
                 Our services
               </a>
